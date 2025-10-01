@@ -12,11 +12,11 @@
 WebServer server(80);
 
 // --------- WiFi / Telegram config (เปลี่ยนตามของคุณ) ----------
-const char* ssid = "FAirpLay";
-const char* password = "ffffffff";
+const char* ssid = "YOUR_WIFI";
+const char* password = "YOUR_PASSWORD";
 
-String BOTtoken = "8393284149:AAGeuq2S1n7A_QcNOWDUrXzbnP-I036P0Io";
-String CHAT_ID = "8403438897";
+String BOTtoken = "YOUR_BOTtoken:BOTtoken";
+String CHAT_ID = "YOUR_CHAT_ID";
 
 WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(BOTtoken, clientTCP);

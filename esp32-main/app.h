@@ -5,7 +5,6 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 #include <U8g2lib.h>
-
 #include <ESP32Servo.h>
 
 // --------------------
@@ -65,7 +64,6 @@ bool isCameraOnline();      // ← ถ้าจะใช้จากที่อ
 // --------------------
 // Ultrasonic Module
 // --------------------
-
 void initUltrasonic(int trigPin, int echoPin, int boxHeight);
 long measureDistance();  // เพิ่มบรรทัดนี้
 int getBoxFillPercent();

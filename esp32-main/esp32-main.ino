@@ -5,10 +5,10 @@
 // --------------------
 // WiFi / Telegram
 // --------------------
-const char* ssid = "FAirpLay";
-const char* password = "ffffffff";
-const char* botToken = "8393284149:AAGeuq2S1n7A_QcNOWDUrXzbnP-I036P0Io";
-const char* chatID = "8403438897";
+const char* ssid = "ํYOUR_WIFI";
+const char* password = "YOUR_password";
+const char* botToken = "YOUR_botToken:botToken";
+const char* chatID = "YOUR_chatID";
 
 // --------------------
 // Hardware pins
@@ -19,7 +19,6 @@ const int TRIG_PIN = 26;
 const int ECHO_PIN = 25;
 const int SERVO_PIN = 15;
 const int BUZZER_PIN = 27;
-
 const int BOX_HEIGHT = 28;  // cm
 
 // --------------------
